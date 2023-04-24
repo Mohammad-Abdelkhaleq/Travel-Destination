@@ -1,0 +1,23 @@
+header{
+    background-color: #F2E3DB;
+    height: auto;
+    display: flex;
+    position: sticky;
+    top:0;
+    z-index: 999
+}
+header img{
+    width: 70px;
+    display: block;
+
+}
+.Link{
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+.Link:hover{
+    background-color: aquamarine;
+}

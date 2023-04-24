@@ -1,18 +1,20 @@
+import Tour from "./tour/Tour"
+import { Routes, Route } from 'react-router-dom';
+import styles from './Tours.css'
+
 function Tours(props) {
     return (
-        <main>
+        <div className="container">
             {
-                props.siteData.map((site,i)=>{
-                    return (<div key={i}>
-                        <h3>{site.name}</h3>
-                        <img src={site.image} alt={site.info}/>
-                        <hr style={{border: '1px solid blue'}}/>
-                    </div>);
-                    
+                props.siteData.map((site, i) => {
+                    return (
+                        <Tour theSite={site} theId={site.id} />
+                    );
                 })
             }
-
-        </main>
+        </div>
+    
     );
 }
+
 export default Tours;
