@@ -1,0 +1,19 @@
+#homaPage{
+    background-color: green;
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Carousel{
+    height: 640px;
+}
+.Carousel img{
+    height: 640px;
+    width: 100%;
+    object-fit: contain;
+
+}

@@ -1,0 +1,17 @@
+footer{
+    background-color: #E86A33;
+    font-family: 'Bruno Ace SC', cursive;
+}
+address{
+    display: flex;
+    justify-content: space-between;
+
+}
+.social {
+    display: block;
+    margin-left: 40px;
+}
+.socialDiv{
+    margin-right: 10%;
+    margin-top: 30px;
+}
